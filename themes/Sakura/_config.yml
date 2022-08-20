@@ -1,0 +1,149 @@
+# site name
+prefixName: 秋山澪の
+siteName: 小站
+# favicon and site master avatar
+favicon: https://gcore.jsdelivr.net/gh/Orwell-Yu/cdn@latest/face/hutaoicon.png
+avatar: /face/mio avatar.jpg
+url: https://orwell-yu.github.io/
+description: 这是一个二次元的博客？
+cdn: https://gcore.jsdelivr.net/gh/Orwell-Yu/cdn@latest
+pjax: 1
+# 1开启
+mathjax: 0
+
+notice: 欢迎群友品鉴...
+lazyloadImg: https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+  归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
+    技术: {path: /categories/技术/, fa: fa-code }, 
+    生活: {path: /categories/生活/, fa: fa-file-text-o }, 
+    资源: {path: /categories/资源/, fa: fa-cloud-download }, 
+    随想: {path: /categories/随想/, fa: fa-commenting-o },
+    转载: {path: /categories/转载/, fa: fa-book }
+  } }
+  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
+    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
+    番组: {path: /bangumi/, fa: fa-film faa-vertical },   # /bangumi/
+    歌单: {path: /music/, fa: fa-headphones },
+    图集: {path: /tags/图集/, fa: fa-photo }
+  } }
+  留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
+  赞赏: { path: /donate/, fa: fa-heart faa-pulse }
+  关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
+    我？: {path: /about/, fa: fa-meetup}, 
+    主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+    # Lab: {path: /lab/, fa: fa-cogs },
+  } }
+
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1
+# Home page article shown number)
+homeArticleShown: 10
+# 背景图片 更好的修改
+bg:
+  # - https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(1).jpg.webp
+  # - https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(2).jpg.webp
+  # - https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(3).jpg.webp
+  # - https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(4).jpg.webp
+  # - https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(5).jpg.webp
+  # - https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(6).jpg.webp
+  # - https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(7).jpg.webp
+  # - https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(8).jpg.webp
+  http://iw233.cn/api/Random.php
+
+
+# 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
+bgclass: filter-dot
+
+# startdash url, title, desc img
+startdash: 
+  - {url: https://www.pixiv.net/, title: Pixiv, desc: 嘿嘿...涩图, img: /img/startdash/pixiv(1).jpg}
+  - {url: https://www.bilibili.com/, title: Bilibili, desc: 叔叔我啊..., img: /img/startdash/bilibili.jpg}
+  - {url: https://iw233.cn/, title: Mirlkoi, desc: 小众涩图站, img: /img/startdash/iw233(2).jpg}
+
+
+
+# your site build time or founded date
+siteBuildingTime: 08/17/2022
+
+#social  url, img PC端配置
+social:
+  github: {url: https://github.com/Orwell-Yu, img: /img/social/github.png}
+  bilibili: {url: https://space.bilibili.com/350209137?spm_id_from=333.1007.0.0, img: /img/social/bilibili.png}
+  zhihu: {url: https://www.zhihu.com/people/legend-67-50, img: /img/social/zhihu.png}
+  Twitter: {url: https://twitter.com/yu_zhewen, img: /img/social/twitter.png}
+#social  url, img 移动端配置
+msocial:
+  github: {url: https://github.com/Orwell-Yu, fa: fa-github, color: 333}
+  twitter: {url: https://twitter.com/yu_zhewen, fa: fa-twitter, color: dd4b39}
+  qq: {url: hhttps://user.qzone.qq.com/1955026836, fa: fa-qq, color: 25c6fe}
+
+donate:
+  # paypal: https://www.paypal.me/hojuncn
+  alipay: /img/custom/donate/AliPay.jpg
+  wechat: /img/custom/donate/WeChatPay.jpg
+
+# 视频地址为https://gcore.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
+movies:
+  url: https://gcore.jsdelivr.net/gh/honjun/hojun@1.2
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: Unbroken.mp4
+
+aplayer: 
+  id: 7598981325
+  server: netease
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: random
+  preload: auto
+  volume: 0.7
+  mutex: true
+
+# Valine
+valine: true
+v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz
+v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
+
+# Waline
+waline:
+  enable: false
+  serverURL: #服务端地址
+  visitor: false #统计阅读量
+  comment_count: true #统计评论数
+  avatar: mp # Gravatar style : mp/identicon/monsterid/wavatar/retro/hide
+  guest_info: nick #,mail,link # custom comment header
+  pageSize: 10
+  placeholder: 祝开开心心！ # Comment Box placeholder
+  requiredFields: [ 'nick','mail' ] #设置必填项
+  background: https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif #输入框提示动画
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  # enable: false
+  scriptFrom: local # 默认
+  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+  # scriptFrom: jsdelivr # jsdelivr CDN
+  # scriptFrom: unpkg # unpkg CDN
+  # scriptFrom: https://gcore.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
+  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false # 调试, 是否在控制台输出日志
+  model:
+    use: live2d-widget-model-z16 # 修改项 npm-module package name 
+    # use: wanko # 博客根目录/live2d_models/ 下的目录名
+    # use: ./wives/wanko # 相对于博客根目录的路径
+    # use: https://gcore.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true # 手机中是否展示

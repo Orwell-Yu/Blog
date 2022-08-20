@@ -1,0 +1,67 @@
+home: 首页
+archives: 文章归档
+about: 关于作者
+categories: 分类
+series: 系列文章
+search: 搜索
+searchPlaceHolder: 请输入关键字
+tags: 标签
+tagcloud: 标签云
+video: 视频资源
+help: 关于本站
+links: 友情链接
+photo: 图集
+book: 悦读
+music: 音乐
+cloud: 资源
+prev: <i class="iconfont icon-back"></i>
+next: <i class="iconfont icon-right"></i>
+comment: 留言
+page: 第 %d 页
+recent_posts: 最新文章
+newer: 上一篇
+older: 下一篇
+share: 分享
+theme_by: Theme by
+rss_feed: RSS Feed
+category: Category
+tag: Tag
+connect: '联系我们'
+post_total_count: 嗯，目前共计%d篇文章
+read_more: '阅读全文'
+contents: 文章目录
+
+none: 无
+insight:
+    hint: '请输入关键词...'
+    posts: '文章'
+    pages: '页面'
+    categories: '分类'
+    tags: '标签'
+    untitled: '(无标题)'
+
+#category
+技术:
+    zh: 全靠嫖来的技术
+    en: Geek – Only for Fun
+    img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/banner/coding.jpg
+生活:
+    zh: 你所热爱的，就是你的生活
+    en: Love the Life We Live
+    img: https://gcore.jsdelivr.net/gh/Orwell-Yu/cdn@latest/face/Life(1).jpg
+随想:
+    zh: 天空没有痕迹，但鸟儿已然飞过
+    en: I leave no trace of wings in the air,but I am glad I have had my flight
+    img: https://tvax2.sinaimg.cn/large/ec43126fgy1h4e06poz2mj21jk111qv6.jpg
+资源:
+    zh: 新竹高于旧竹枝，全凭老干为扶持
+    en: The young is higher than the old, all by old for support
+    img: https://tvax2.sinaimg.cn/large/ec43126fgy1h4ql6ntd8uj23wf238e84.jpg
+转载:
+    zh: 世上本没有路，走的人多了，也便成了路
+    en: Path is shown up only when people walk through
+    img: https://tva4.sinaimg.cn/large/ec43126fgy1h4e0deqoi8j228o1e01kz.jpg
+
+#tag
+悦读:
+    img: https://tva4.sinaimg.cn/large/ec43126fgy1h4ql90dtcpj227o15ohdv.jpg
